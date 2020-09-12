@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+  background-color: #fff;
+  color: #506a85;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.head-top {
+  background-color: #f5f7fa;
+  margin-bottom: 10px;
+}
+
+.head-top .right a:hover {
+  color: #64d4c2;
+}
+
+.head-top .right a,
+.left a {
+  text-decoration: none;
+  color: #506a85;
+}
+
+.head-top .right {
+  margin: 10px 0px;
+}
+
+.head-top .left {
+  margin: 5px 0px;
+  text-align: right;
+}
+
+.head-top .left ul {
+  list-style: none;
+  margin: 0px;
+}
+
+.head-top .left ul li {
+  display: inline-block;
+}
+
+.head-top .left .fa {
+  font-size: 1rem;
+  line-height: 1rem;
+  padding: 5px;
+}
+
+.head-top .left .fa-facebook:hover {
+  color: white;
+  background-color: #3b5998;
+}
+
+.head-top .left .fa-google-plus:hover {
+  color: white;
+  background-color: #dd4736;
+}
+
+.head-top .left .fa-twitter:hover {
+  color: white;
+  background-color: #28a8e0;
+}
+
+.head-top .left .fa-pinterest-p:hover {
+  color: white;
+  background-color: #cb2027;
+}
+
+.head-top .left .fa-behance:hover {
+  color: white;
+  background-color: #1368ff;
+}
+
+.head-top .left .fa-dribbble:hover {
+  color: white;
+  background-color: #f474a5;
+}
+
+.header-body {
+  padding: 10px 0px 20px;
+}
+
+.header-body .navbar {
+  padding: 0px;
+}
+
+.header-body .nav-item {
+  margin-left: 15px;
+}
+
+header .bg-light {
+  background-color: #fff !important;
+}
+
+.header-body .navbar-expand-lg .navbar-collapse {
+  margin-left: 30px;
+}
+
+.header-body .navbar-light .navbar-nav .active > .nav-link {
+  color: #3b5998;
+}
+
+.header-body .navbar-light .navbar-nav .nav-link:hover {
+  color: #00bb9c;
+}
+
+.header-body .navbar-collapse li .nav-link {
+  font-size: 18px;
+  font-weight: bold;
+  color: #506a85;
+}
+
+.header-body .right-search {
+  color: #506a85;
+}
+
+.navbar-collapse .form-inline .form-control {
+  border: none;
+}
+
+.navbar-collapse .btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  border: none;
+}
+
+/* Banner section css starts here */
+
+.banner-section {
+  width: 100%;
+}
+
+.banner-section .carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 30%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-section .carousel-caption h1 {
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 65px;
+}
+
+.banner-section .carousel-caption p {
+  color: #c2c2c2;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.banner-section .btn-info {
+  padding: 10px 40px;
+  border-radius: 2px;
+  background-color: #00bb9c;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+}
+
+.banner-section .btn-info:hover {
+  background-color: white;
+  color: #00bb9c;
+  transition: 1s;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 45%;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+/* Banner section css ends here */
+
+/* Clean section starts here */
+
+.clean-section {
+  width: 100%;
+  padding: 50px;
+}
+
+.clean-section .first-row {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 50px 0px;
+}
+
+.clean-section p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+.clean-section h2 {
+  font-weight: 600;
+}
+
+.row-2 h3 {
+  font-weight: bold;
+}
+
+/* Clean section ends here */
