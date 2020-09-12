@@ -217,13 +217,28 @@ header .bg-light {
 .clean-section .first-row {
   text-align: center;
   padding: 10px 0px;
-  margin: 50px 0px;
+  margin: 50px 0px 40px;
+}
+
+.clean-section .first-row p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #506a85;
+}
+.clean-section .first-row h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.clean-section .row-2 .media h3 {
+  margin-top: -6px;
+  font-size: 2rem;
 }
 
 .clean-section p {
   font-size: 16px;
   line-height: 26px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .clean-section h2 {
@@ -235,3 +250,100 @@ header .bg-light {
 }
 
 /* Clean section ends here */
+
+/* latest-collection section starts here */
+
+.latest-collection {
+  background-color: #f5f7fa;
+  padding: 50px 0px;
+}
+
+.latest-collection .row-2 .card a {
+  text-decoration: none;
+  color: #506a85;
+}
+
+.latest-collection .row-2 .card a:hover {
+  text-decoration: none;
+  color: #64d4c2;
+}
+
+.latest-collection .row-1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.latest-collection .row-1 h2 {
+  font-weight: 700;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.latest-collection .row-1 p {
+  font-weight: 4 00;
+  font-size: 24px;
+}
+
+.latest-collection .row-2 {
+  text-align: center;
+}
+
+.latest-collection .row-2 h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.latest-collection .row-2 .card .img-with-overlay {
+  position: relative;
+}
+
+.latest-collection .row-2 .card .img-with-overlay .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 212, 193, 0.89);
+  display: none;
+  color: white;
+}
+
+.latest-collection .row-2 .card .img-with-overlay .overlay .fas {
+  margin: 170px auto 0px;
+}
+
+.latest-collection .row-2 .card:hover .overlay {
+  display: block;
+}
+
+.latest-collection .row-3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.latest-collection .row-3 .img-with-overlay {
+  position: relative;
+}
+
+.latest-collection .row-3 .img-with-overlay .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 212, 193, 0.89);
+  display: none;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.latest-collection .row-3 .overlay h5 {
+  font-weight: 700;
+}
+
+.latest-collection .row-3 .card:hover .overlay {
+  display: block;
+}
+
+/* latest-collection section ends here */
