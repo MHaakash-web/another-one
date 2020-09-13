@@ -230,12 +230,15 @@ header .bg-light {
   margin-bottom: 10px;
 }
 
+.clean-section .row-2 .media-body {
+  padding-bottom: 30px;
+}
+
 .clean-section .row-2 .media h3 {
-  margin-top: -6px;
   font-size: 2rem;
 }
 
-.clean-section p {
+.clean-section .row-2 p {
   font-size: 16px;
   line-height: 26px;
   margin-top: 20px;
