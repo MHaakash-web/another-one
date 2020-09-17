@@ -381,8 +381,11 @@ header .bg-light {
 .
  */
 
-/* footer section starts here */
+/********************************
+*** footer section starts here ****
+**********************************/
 
+/* Footer main section */
 .footer-section {
   width: 100%;
   background-color: #2f4052;
@@ -408,11 +411,19 @@ header .bg-light {
   margin-top: 20px;
 }
 
-.footer-section .widget a {
+.footer-section .f-col .widget a {
   color: #a3b1bf;
   font-size: 14px;
   font-weight: 700;
   margin-top: 20px;
+}
+
+.footer-section .f-col img:hover {
+  opacity: 50%;
+}
+
+.footer-section .f-col .widget a:hover {
+  color: #00bc9c;
 }
 
 .footer-section .widget a .ek {
@@ -423,6 +434,43 @@ header .bg-light {
   text-decoration: none;
 }
 
+/* `` ` `` ` `` ` */
+.footer-section .t-col a {
+  text-decoration: none;
+  color: #a3b1bf;
+}
+
+.footer-section .t-col a:hover {
+  text-decoration: none;
+  color: #00bc9c;
+}
+
+/* `` ` `` `  */
+.footer-section .s-col .card .img-with-overlay {
+  position: relative;
+  text-align: center;
+}
+
+.footer-section .s-col .card .img-with-overlay .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(100, 212, 193, 0.89);
+  display: none;
+  color: white;
+}
+
+.footer-section .s-col .card .img-with-overlay .overlay .fas {
+  margin: 30px auto 0px;
+}
+
+.footer-section .s-col .card:hover .overlay {
+  display: block;
+}
+/* `` ` `` ` */
+/* `` ` `` ` */
 .footer-section .widget .col-sm-12 {
   padding: 0px 0px;
 }
@@ -443,12 +491,61 @@ header .bg-light {
 
 .footer-section .widget button {
   position: absolute;
-  right: 10%;
+  right: 5%;
+  top: 44.5%;
+}
+
+.footer-section .widget .btn {
+  padding: 3px 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #00bc9c;
+  border: 0px solid transparent;
+}
+
+.footer-section .widget .btn:hover {
+  background-color: #17a78b;
 }
 
 .footer-section .widget ::placeholder {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a3b1bf;
 }
+
+.footer-section .widget .form-control:hover {
+  background-color: #596675;
+}
+
+.footer-section .widget .form-control {
+  color: white;
+}
+
+.footer-section .widget .form-control:hover ::placeholder {
+  background-color: #596675;
+}
+
+.footer-section .widget .form-control:focus {
+  box-shadow: none;
+}
+
+.footer-section .form-control {
+  padding: 20px 10px;
+  background-color: #4e5c6c;
+  border: 0px solid transparent;
+  width: 110%;
+}
+
+/* .
+.
+footer main section ended here
+.
+.
+.
+.
+.
+. */
 
 /* Footer bottom section */
 
@@ -487,6 +584,18 @@ header .bg-light {
 .footer-bottom .t-right ul a:hover {
   text-decoration: none;
   color: #00bc9c;
+}
+
+.right-side {
+  width: 100%;
+  padding: 0px 20px;
+  text-align: right;
+  margin-top: -65px;
+  opacity: 50%;
+}
+
+.right-side:hover {
+  opacity: 100%;
 }
 
 /************************************
