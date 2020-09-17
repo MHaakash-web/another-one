@@ -324,7 +324,7 @@ header .bg-light {
   background: #00bb9c;
 }
 
-.latest-collection .row-3 .owl-theme .owl-nav.disabled + .owl-dots {
+.latest-collection .row-3 {
   margin-top: 25px;
 }
 
