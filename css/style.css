@@ -26,7 +26,7 @@ h6 {
   margin-bottom: 10px;
 }
 
-.head-top .right a:hover {
+.head-top .left a:hover {
   color: #64d4c2;
 }
 
@@ -36,56 +36,58 @@ h6 {
   color: #506a85;
 }
 
-.head-top .right {
+.head-top .left {
   margin: 10px 0px;
+  font-size: 14px;
 }
 
-.head-top .left {
+.head-top .right {
   margin: 5px 0px;
   text-align: right;
+  font-size: 12px;
 }
 
-.head-top .left ul {
+.head-top .right ul {
   list-style: none;
   margin: 0px;
 }
 
-.head-top .left ul li {
+.head-top .right ul li {
   display: inline-block;
 }
 
-.head-top .left .fa {
+.head-top .right .fa {
   font-size: 1rem;
   line-height: 1rem;
   padding: 5px;
 }
 
-.head-top .left .fa-facebook:hover {
+.head-top .right .fa-facebook:hover {
   color: white;
   background-color: #3b5998;
 }
 
-.head-top .left .fa-google-plus:hover {
+.head-top .right .fa-google-plus:hover {
   color: white;
   background-color: #dd4736;
 }
 
-.head-top .left .fa-twitter:hover {
+.head-top .right .fa-twitter:hover {
   color: white;
   background-color: #28a8e0;
 }
 
-.head-top .left .fa-pinterest-p:hover {
+.head-top .right .fa-pinterest-p:hover {
   color: white;
   background-color: #cb2027;
 }
 
-.head-top .left .fa-behance:hover {
+.head-top .right .fa-behance:hover {
   color: white;
   background-color: #1368ff;
 }
 
-.head-top .left .fa-dribbble:hover {
+.head-top .right .fa-dribbble:hover {
   color: white;
   background-color: #f474a5;
 }
@@ -104,6 +106,10 @@ h6 {
 
 header .bg-light {
   background-color: #fff !important;
+}
+
+.header-body .navbar-brand .logoimg:hover {
+  opacity: 50%;
 }
 
 .header-body .navbar-expand-lg .navbar-collapse {
