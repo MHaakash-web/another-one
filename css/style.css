@@ -230,6 +230,8 @@ header .bg-light {
   font-size: 18px;
   font-weight: 600;
   color: #506a85;
+  line-height: 28px;
+  opacity: 60%;
 }
 .clean-section .first-row h2 {
   font-size: 3rem;
@@ -246,8 +248,10 @@ header .bg-light {
 
 .clean-section .row-2 p {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 20px;
   margin-top: 20px;
+  font-weight: 600;
+  opacity: 80%;
 }
 
 .clean-section h2 {
@@ -359,7 +363,7 @@ header .bg-light {
 .get-in-touch-section p {
   font-size: 20px;
   line-height: 30px;
-  font-weight: normal;
+  font-weight: 600;
   color: #7e8d9c;
   margin-bottom: 30px;
 }
